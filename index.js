@@ -23,8 +23,7 @@ if (yn.toUpperCase() === "ALWAYS") {
     }
 } else {
     console.log("Ohh, you didn't wanna play the game? Okay, cool!!");
-    console.clear()
-    process.exit()
+    
 
 
 
