@@ -5,8 +5,7 @@ console.log("Welcome" + " " + playerName + " " + "to this quiz on Harry Potter!!
 console.log("Rules of the game are given below : ");
 console.log("  *Do not cheat by browsing your answers. \n  *Write complete spellings of the answer. \n  *You can write the whole answer or the option. \n  *There will be three levels to this game. \n  *Every right answer will give you 1 mark. \n  *You can only reach the next level if you have achieved full marks in the last level in one chance. \n");
 var score = 0;
-var yn = readlineSync.question("To play the game, enter ALWAYS... \n");
-if (yn.toUpperCase() === "ALWAYS") {
+
     console.log("All the best!! \nHere comes your questions... \n")
 
     function hogwarts(question, answer, option) {
@@ -21,13 +20,7 @@ if (yn.toUpperCase() === "ALWAYS") {
         console.log("Your score is : ", score);
         console.log("---------")
     }
-} else {
-    console.log("Ohh, you didn't wanna play the game? Okay, cool!!");
-    
 
-
-
-}
 
 var questions = [{
         question: "Who was scared of the spiders? \n a. Ron \n b. Luna \n c. Harry",
